@@ -9,10 +9,7 @@
 body{
     background-color: var(--bg);
 }
-button{
-    background-color: var(--button);
-}
-.container{
+section {
     margin: 0 auto;
     background-color: #ffffff;
     display: block;
@@ -21,22 +18,22 @@ button{
     max-width: 500px;
     box-shadow: 5px 5px 10px 2px rgb(red, green, blue);
 }
-button{
+section button{
     padding: 12px 10px 10px 10px;
     margin-top: 5px;
     margin-left: 5px;
     margin-bottom: 5px;
     cursor: pointer;
     color: white;
-    
+    background-color: var(--button);
 }
-h1{
+section h1{
     margin: -35px 0 0 8px;
     color: white;
 }
-p{
+section p{
     margin: 5px;
 }
-img{
+section img{
     max-width: 100%;
 }
