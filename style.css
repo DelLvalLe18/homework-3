@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg: #bbdefb;
+    --button: #ff1d8e;
+}
+body{
+    background-color: var(--bg);
+}
+button{
+    background-color: var(--button);
+}
+.container{
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: block;
+    margin-top: 150px;
+    align-items: center;
+    max-width: 500px;
+    box-shadow: 5px 5px 10px 2px rgb(red, green, blue);
+}
+button{
+    padding: 12px 10px 10px 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: white;
+    
+}
+h1{
+    margin: -35px 0 0 8px;
+    color: white;
+}
+p{
+    margin: 5px;
+}
+img{
+    max-width: 100%;
+}
