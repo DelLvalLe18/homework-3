@@ -16,7 +16,7 @@ section {
     margin-top: 150px;
     align-items: center;
     max-width: 500px;
-    box-shadow: 5px 5px 10px 2px rgb(red, green, blue);
+    box-shadow: 5px 5px 10px 2px;
 }
 section button{
     padding: 12px 10px 10px 10px;
