@@ -8,17 +8,18 @@
 }
 body{
     background-color: var(--bg);
-}
-button{
-    background-color: var(--button);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
-    margin: 0 auto;
+    max-width: 500px;
+    height: 55vh;
+    margin: 0;
     background-color: #ffffff;
     display: block;
-    margin-top: 150px;
     align-items: center;
-    max-width: 500px;
     box-shadow: 5px 5px 10px 2px rgb(red, green, blue);
 }
 button{
@@ -28,7 +29,7 @@ button{
     margin-bottom: 5px;
     cursor: pointer;
     color: white;
-    
+    background-color: var(--button);
 }
 h1{
     margin: -35px 0 0 8px;
