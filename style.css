@@ -17,6 +17,8 @@ section {
     align-items: center;
     max-width: 500px;
     box-shadow: 5px 5px 10px 2px;
+    display: flex;
+    justify-content: center;
 }
 section button{
     padding: 12px 10px 10px 10px;
